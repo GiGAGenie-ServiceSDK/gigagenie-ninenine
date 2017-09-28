@@ -4,10 +4,8 @@
 <meta name="viewport" content="height=1080, width=1920, user-scalable=no" />
 <style type ="text/css">
 .btn {
-
     font-size: 30px;
-	font-weight: bold;
-
+    font-weight: bold;
 }
 </style>
 
@@ -55,9 +53,9 @@ function startNineNine(){
 		if(result_cd===200){
 			console.log(extra.voicetext+':'+solution);
 			if(parseInt(extra.voicetext)===solution){
-					alert(extra.voicetext+" 정답입니다");
+				alert(extra.voicetext+" 정답입니다");
 			} else {
-					alert(extra.voicetext+" 틀렸습니다.");
+				alert(extra.voicetext+" 틀렸습니다.");
 			}
 		} else {
 			alert("다시해보세요");
