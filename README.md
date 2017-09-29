@@ -101,3 +101,21 @@ Service API는 Callback을 통해 요청 결과를 수신합니다.
 	  * Callback으로 Mute 요청 이벤트를 수신합니다.
 	     * extra: 오디오 on/off 값 (boolean)
 
+## License
+
+Copyright 2017 KT corp.
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements.  See the NOTICE file distributed with this work for
+additional information regarding copyright ownership.  The ASF licenses this
+file to you under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License.  You may obtain a copy of
+the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+License for the specific language governing permissions and limitations under
+the License.
