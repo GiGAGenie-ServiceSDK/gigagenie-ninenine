@@ -64,10 +64,10 @@ Service API는 Callback을 통해 요청 결과를 수신합니다.
         function stopTTS() {
           alert("음성인식 중단 요청");
           gigagenie.voice.stopTTS(null,function(result_cd, result_msg, extra) {
-            if (result_cd==200) {
+            if (result_cd===200) {
               alert("음성인식 중단 성공");
             }
-            else if (result_cd==404) {
+            else if (result_cd===404) {
               alert("음성인식 실행 중이 아님");
             }
             else {
