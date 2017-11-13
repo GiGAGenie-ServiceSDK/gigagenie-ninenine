@@ -25,7 +25,7 @@ Service API는 Callback을 통해 요청 결과를 수신합니다.
 	   * Service SDK 이용을 위해 반드시 초기화를 진행해야 합니다.
 	   * options은 다음과 같이 설정합니다.
 	     * options.apikey: 개발자 사이트에서 받은 api key (string)
-	     * options.keytype: G-Box 개발 키 GBOXDEVM (string)
+	     * options.keytype: G-Box 개발 키 GBOXDEVM (string)
 	   * callback으로 초기화 성공 여부를 수신
 	     * result_cd: 200(success)이 아닌 경우 API는 동작하지 않습니다.    
 
